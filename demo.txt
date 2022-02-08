@@ -1,0 +1,83 @@
+.offer-price{
+    position: absolute;
+    top: 0;
+    right: 40px;
+    width: 90px;
+    height: 90px;
+    background: #a7781d;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+offer-price h4{
+    font-size: 36px;
+    line-height: 40px;
+    color: #fff;
+    padding: 20px 0;
+}
+.offer-sec h3{
+    font-size: 32px;
+    line-height: 36px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #a7781d;
+    padding-top: 20px;
+    display: inline-block;
+}
+<div class="offer-price">
+                                    <h4>**</h4>
+                                </div>
+
+.nav ul li a{
+    font-weight: 600;
+    color: #333;
+    padding: 20px 15px;
+    display: inline-block;
+}
+nav ul li a:hover{
+    color: #333;
+    background: #f3f3f3;
+}
+ul.sub-nav{
+    position: absolute;
+    display: none;
+    width: 200px;
+    z-index: 1;
+}
+ul.sub-nav li{
+    float: none;
+}
+ul.sub-nav li a{
+    background-color: #fff;
+    font-weight: 600;
+    color: #333;
+    width: 85%;
+}
+.nav ul li:hover ul.sub-nav{
+    display: block;
+}
+<section class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Clothing</a></li>
+                <li><a href="#">Men Clothing</a></li>
+                <li><a href="#">Tshirts</a></li>
+                <li><a href="#" class="active">Men Tshirts</a></li>
+            </ul>
+        </div>
+    </section>
+
+.nav{
+    float: left;
+}
+.nav ul li{
+    float: left;
+    position: relative;
+}
+.nav{
+    float: left;
+}
+.nav ul li{
+    float: left;
+    position: relative;
+}
